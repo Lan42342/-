@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页 - 张三</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            background: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.5em;
+        }
+
+        .section p,
+        .section ul {
+            line-height: 1.6;
+        }
+
+        .section ul {
+            padding-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #4CAF50;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>张三的个人主页</h1>
+            <nav>
+                <a href="#about">关于我</a>
+                <a href="#projects">项目经历</a>
+                <a href="#skills">技能</a>
+                <a href="#contact">联系方式</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <section id="about" class="section">
+                <h2>关于我</h2>
+                <img src="https://via.placeholder.com/150" alt="张三" class="profile-img">
+                <p>你好，我是张三，一名充满激情的软件工程师，专注于前端和后端开发。我喜欢编程和解决复杂的技术问题。在我的职业生涯中，我参与了多个项目，积累了丰富的经验。</p>
+            </section>
+
+            <section id="projects" class="section">
+                <h2>项目经历</h2>
+                <ul>
+                    <li><strong>智能家居系统：</strong> 开发了一个集成智能家居设备的系统，实现了智能控制和远程管理。</li>
+                    <li><strong>电商平台：</strong> 负责设计和开发了一个电商平台的前端界面，优化了用户体验和性能。</li>
+                    <li><strong>数据分析工具：</strong> 构建了一个数据分析工具，支持可视化和报告生成，帮助团队做出数据驱动的决策。</li>
+                </ul>
+            </section>
+
+            <section id="skills" class="section">
+                <h2>技能</h2>
+                <ul>
+                    <li><strong>编程语言：</strong> Python, JavaScript, Java, HTML, CSS</li>
+                    <li><strong>框架与工具：</strong> React, Node.js, Django, Git, Docker</li>
+                    <li><strong>数据库：</strong> MySQL, PostgreSQL, MongoDB</li>
+                    <li><strong>其他：</strong> API 设计, 版本控制, 自动化测试</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>联系方式</h2>
+                <p><strong>Email:</strong> example@example.com</p>
+                <p><strong>电话:</strong> 123-456-7890</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/example"
+                        target="_blank">https://www.linkedin.com/in/example</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/example"
+                        target="_blank">https://github.com/example</a></p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 张三. 保留所有权利。</p>
+    </footer>
+</body>
+
+</html>
